@@ -4,10 +4,7 @@
     --card-back-color: #00F4BF;
 }
 
-body {
-    background: url('img/bg-desktop.webp');
-    font-family: Bai Jamjuree;
-}
+
 
 #container {
     display: flex;  
@@ -23,6 +20,13 @@ body {
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
+
+body {
+    background: url('img/bg-desktop.webp');
+    font-family: Bai Jamjuree;
+}
+
+
 
 .cartao__conteudo {
     background-color: var(--card-front-color);
