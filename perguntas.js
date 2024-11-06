@@ -5,7 +5,7 @@ criaCartao(
 )
 
 criaCartao(
-    categoria,
+    'conhecimento geral',
     ' Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?',
     'Tem entre 4 a 6 litros. São retirados 450 mililitros',
 )
