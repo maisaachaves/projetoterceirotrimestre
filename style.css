@@ -1,14 +1,13 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap')
+:root { 
     --text-color: #DBE4EF;
     --card-front-color: #144480;
     --card-back-color: #00F4BF;
 }
-
 body {
     background: url('img/bg-desktop.webp');
     font-family: Bai Jamjuree;
 }
-
 #container {
     display: flex; 
     flex-wrap: wrap;
@@ -16,14 +15,12 @@ body {
     padding: 4rem;
     gap: 3rem;
 }
-
 .cartao {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
-
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
@@ -32,7 +29,6 @@ body {
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
 }
-
 .cartao__conteudo h3 {
     color: var(--text-color);
     border: 1px solid var(--text-color);
@@ -44,14 +40,12 @@ body {
     font-size: 1vw;
     backface-visibility: hidden;
 }
-
 .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
     font-size: 1.4vw;
 }
-
 .cartao__conteudo__pergunta p {
     color: var(--text-color);
     font-weight: 500;
